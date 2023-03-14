@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "132\r\n20\r\n132\r\n20",
+      "output": "Iterasi #1: 144\r\nIterasi #2: 16\r\nIterasi #3: 6\r\n\r\nNay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "101\r\n17\r\n101\r\n19",
+      "output": "Iterasi #1: 63\r\nIterasi #2: 18\r\nIterasi #3: 8\r\n\r\nNay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "123\r\n45\r\n167\r\n89",
+      "output": "Iterasi #1: 362880\r\nIterasi #2: 2304\r\nIterasi #3: 24\r\nIterasi #4: 8\r\n\r\nNay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "132\r\n20\r\n152\r\n16",
+      "output": "Iterasi #1: 720\r\nIterasi #2: 14\r\nIterasi #3: 4\r\n\r\nNay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "165\r\n20\r\n174\r\n19",
+      "output": "Iterasi #1: 15120\r\nIterasi #2: 10\r\nIterasi #3: 1\r\n\r\nYay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "182\r\n20\r\n180\r\n20",
+      "output": "Iterasi #1: 512\r\nIterasi #2: 10\r\nIterasi #3: 1\r\n\r\nYay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "163\r\n21\r\n169\r\n21",
+      "output": "Iterasi #1: 3888\r\nIterasi #2: 1536\r\nIterasi #3: 90\r\nIterasi #4: 9\r\n\r\nYay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "153\r\n19\r\n101\r\n19",
+      "output": "Iterasi #1: 1215\r\nIterasi #2: 10\r\nIterasi #3: 1\r\n\r\nYay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "134\r\n19\r\n144\r\n19",
+      "output": "Iterasi #1: 15552\r\nIterasi #2: 250\r\nIterasi #3: 10\r\nIterasi #4: 1\r\n\r\nYay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "135\r\n89\r\n133\r\n89",
+      "output": "Iterasi #1: 699840\r\nIterasi #2: 15552\r\nIterasi #3: 250\r\nIterasi #4: 10\r\nIterasi #5: 1\r\n\r\nYay!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
